@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/lavender"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+   <EditText
+       android:id="@+id/editTextWeight"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:inputType="numberDecimal"
+       android:maxLength="5"
+       android:hint="Digite seu peso"
+       android:layout_marginTop="30dp"
+       android:layout_marginStart="20dp"
+       android:layout_marginEnd="20dp"
+       android:padding="15dp"
+       android:background="@color/lavenderBlush"
+       />
+
+   <EditText
+       android:id="@+id/editTextHeight"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:inputType="numberDecimal"
+       android:hint="Digite sua altura"
+       android:layout_margin= "20dp"
+       android:maxLength="4"
+       android:background="@color/lavenderBlush"
+       android:padding="15dp"
+       />
+
+   <Button
+       android:id="@+id/btnCalc"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:text="calcular"
+       android:textSize="20sp"
+       android:backgroundTint="@color/mediumPurple"
+       android:textStyle="bold"
+       android:padding="15dp"
+       android:layout_marginStart="20dp"
+       android:layout_marginEnd="20dp"
+       android:layout_gravity="center"
+       />
+
+</LinearLayout>
